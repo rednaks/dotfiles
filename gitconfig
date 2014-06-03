@@ -1,0 +1,13 @@
+[user]
+	name = Alexandre BM
+	email = s@rednaks.tn
+[color]
+	diff = auto
+	status = auto
+	log = auto
+	branch = auto
+	grep = auto
+	blame = auto
+[core]
+	editor = vim
+	deltaBaseCacheLimit = 1G
