@@ -1,0 +1,1 @@
+/home/rednaks/.vimrc
