@@ -1,6 +1,6 @@
 [user]
-	name = Alexandre BM
-	email = s@rednaks.tn
+	email = skander.bmahmoud@gmail.com
+	name = SkanderBM
 [color]
 	diff = auto
 	status = auto
@@ -9,5 +9,7 @@
 	grep = auto
 	blame = auto
 [core]
-	editor = vim
+	editor = nvim
 	deltaBaseCacheLimit = 1G
+[push]
+	default = simple
