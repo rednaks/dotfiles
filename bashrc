@@ -1,4 +1,3 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -105,7 +104,7 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/android-sdk-linux/platform-tools:/opt/matu2k9b/bin
+export PATH=/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/rednaks/android-sdk-linux/platform-tools:/opt/matu2k9b/bin
 
 ############################################################################################################################################################
 #GIT
@@ -231,6 +230,20 @@ alias redgrep="fgrep -R -n -i"
 #export PATH=~/llvm32build/bin:/opt/depot_tools/:$PATH
 #export PATH=$PATH:/opt/ARM/arm-linaro-eabi-4.6/bin/
 alias tmux="TERM=screen-256color-bce tmux"
+alias vim="nvim"
 alias svim="sudo -E vim"
 alias gist="gist --no-open"
+alias fsize="du -h -d 1 | sort -h -"
+alias relax="redshift -l 36.8:10.1833 &"
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
 
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
+export PATH=$PATH:/opt/node/bin/
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
