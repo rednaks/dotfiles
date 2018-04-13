@@ -119,6 +119,7 @@ alias svim="sudo -E vim"
 alias gist="gist --no-open"
 alias fsize="du -h -d 1 | sort -h -"
 alias relax="redshift -l 36.8:10.1833 &"
+alias sudo='sudo '
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
