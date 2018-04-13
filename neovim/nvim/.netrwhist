@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/rednaks/myLab/firefoxOS/experiments/offlinedata'
+let g:netrw_dirhist_2='/home/rednaks/myLab/ways.tn/app/js/lib'
+let g:netrw_dirhist_3='/etc/systemd/system'
+let g:netrw_dirhist_4='/tmp/pha/META-INF'
+let g:netrw_dirhist_5='/home/rednaks/Documents/SM/dj/crowling/standalone/app'
+let g:netrw_dirhist_6='/home/rednaks/Documents/SM/dj/crowling/clustering'
+let g:netrw_dirhist_7='/home/rednaks/Documents/SM/dj/crowling/clustering/migrations'
+let g:netrw_dirhist_8='/home/rednaks/myLab/firefoxOS/marketplace_stats/stats'
+let g:netrw_dirhist_9='/media/rednaks/Ubu/opt/trusty/home/rednaks/.PlayOnLinux/wineprefix/planetbase_drive/drive_c/Program Files/planetbase/Planetbase v1.06/3DMGAME'
