@@ -1,5 +1,7 @@
 let g:python_host_prog='/usr/bin/python2'
-"call pathogen#runtime_append_all_bundles()
+set runtimepath^=~/.config/nvim/nvim runtimepath+=~/.config/nvim/nvim/after
+let &packpath= &runtimepath
+call pathogen#runtime_append_all_bundles()
 execute pathogen#infect()
 syntax on
 set number
